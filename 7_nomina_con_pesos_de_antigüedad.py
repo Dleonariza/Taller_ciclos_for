@@ -25,7 +25,6 @@ if 1 <= n_empleados <= 40:
 
         if 1 <= antiguedad <= 50:
             for j in range(1, antiguedad + 1):
-                print(j)
                 suma_an += j
 
             sueldo = (100 + edad + suma_an)/antiguedad
